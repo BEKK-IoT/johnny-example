@@ -1,6 +1,7 @@
 # johnny-example
 
 Dette er bare node koden jeg har brukt for å teste johnny-five på raspberry, pluss oppskrift for å få det opp.
+Tenkte det var best å få det opp i skyen så det ikke plutselig forsvinner.
 
 # SD-kort image
 http://blog.hypriot.com/
@@ -20,8 +21,7 @@ Jeg har et image lokalt jeg kan pushe opp, men det blir ikke riktig måte å utn
 Koden er veldig simpel, fulgte bare arduino eksemplene for å teste forskjellige ting.
 
 # Tanker
-Vi må klare å benytte dockerfile i et repo. Har ikke sett på det, men det er nok bare å skrive ut hva som skal være tilgjenglig.
-Det er en dypere docker læring.
+Vi må klare å benytte dockerfile i et repo. Har ikke sett på det, men det er nok bare å skrive ut hva som skal kjøre opp et image og installeres. Men det er mer docker læring. Noe som kan være bra!
 Vi må også se på hvordan det er å dele opp containerene, om det er vits.
 Må se litt på hvordan det er å utvikle til så det blir greit for elevene også.
 
