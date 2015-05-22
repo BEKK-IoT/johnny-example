@@ -13,6 +13,7 @@ Kjørte opp imaget med kommandoen under. Dette var for å kunne gi tilgang til d
 ```docker run --device /dev/mem:/dev/mem -v /lib/modules:/lib/modules --cap-add=ALL  --privileged -ti snorlock/node-gpio /bin/bash```
 
 La inn node slik: http://weworkweplay.com/play/raspberry-pi-nodejs/
+
 Da er du klar til å installere johnny-five og hacke løs.
 
 Jeg har et image lokalt jeg kan pushe opp, men det blir ikke riktig måte å utnytte docker på, føler jeg.
