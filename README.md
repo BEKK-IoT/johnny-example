@@ -8,6 +8,7 @@ http://blog.hypriot.com/
 
 # Docker Image
 Jeg brukte dette image her som base: https://registry.hub.docker.com/u/acencini/rpi-python-serial-wiringpi/
+Dette har nok litt mye python avhengigheter som vi ikke trenger, men det funket ihvertfall. Vi kan prøve å finne ut hva som trengs og hva som kan fjernes for å få et renere image. Jeg tror det ene wiringPi biten er viktig.
 Kjørte opp imaget med kommandoen under. Dette var for å kunne gi tilgang til det som trengs for å kjøre johnnyfive med raspi-io. 
 
 ```docker run --device /dev/mem:/dev/mem -v /lib/modules:/lib/modules --cap-add=ALL  --privileged -ti snorlock/node-gpio /bin/bash```
